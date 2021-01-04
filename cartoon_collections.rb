@@ -13,3 +13,7 @@ end
 def find_valid_calls(arr)
   arr.find { |str| (str == str.capitalize) && (str[-1] == "!") }
 end
+
+mixed_calls = ["Cloud!", "earth", "Wind!", "cat", "Heart!"]
+
+puts find_valid_calls(mixed_calls)
