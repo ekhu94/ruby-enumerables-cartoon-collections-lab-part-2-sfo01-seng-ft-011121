@@ -5,3 +5,7 @@ end
 def summon_captain_planet(arr)
   arr.map { |str| "#{str.capitalize}!" }
 end
+
+def long_planeteer_calls(arr)
+  arr.any? { |str| str.length > 4 }
+end
