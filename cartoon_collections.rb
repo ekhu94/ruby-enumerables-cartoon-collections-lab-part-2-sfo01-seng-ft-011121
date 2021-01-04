@@ -11,5 +11,5 @@ def long_planeteer_calls(arr)
 end
 
 def find_valid_calls(arr)
-  arr.find { |str| str.length > 4 }
+  arr.find { |str| str == "#{str.capitalize}" }
 end
