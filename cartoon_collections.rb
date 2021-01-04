@@ -11,5 +11,5 @@ def long_planeteer_calls(arr)
 end
 
 def find_valid_calls(arr)
-  arr.find { |str| str == str.capitalize && str[-1] == "!" }
+  arr.find { |str| (str[0] == str[0].capitalize) && (str[-1] == "!") }
 end
