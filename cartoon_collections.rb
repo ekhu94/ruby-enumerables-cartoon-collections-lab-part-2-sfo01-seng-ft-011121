@@ -11,5 +11,6 @@ def long_planeteer_calls(arr)
 end
 
 def find_valid_calls(arr)
-  ) }
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  arr.find { |str| valid_calls.include(str) }
 end
