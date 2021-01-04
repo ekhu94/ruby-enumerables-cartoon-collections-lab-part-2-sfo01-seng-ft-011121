@@ -1,9 +1,9 @@
 def square_array(arr)
-  arr.map { |num| num * num }
+  arr.map { |n| n * n }
 end
 
 def summon_captain_planet(arr)
-  arr.map { |str| str[0].upcase + str[1..-1] + "!" }
+  arr.map { |str| "#{str.capitalize}!" }
 end
 
 def long_planeteer_calls(arr)
